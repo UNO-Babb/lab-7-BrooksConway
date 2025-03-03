@@ -10,8 +10,14 @@ def isThreeOrFive(n):
 
 def isPrime(p):
   """Returns boolean (True/False) if the value given is prime."""
+  if p / 2 != 1:
+    return False
+  elif p / 1 == p and p / p == 1:
+    return True
+  
 
-  return True
+
+  
 
 def isEven(n):
   """Returns boolean about given value being even."""
@@ -49,10 +55,14 @@ def main():
 
   if isPrime(num):
     print("%d is a prime number" %(num))
+  else:
+    print("%d is not a prime number" %(num))
 
   if isEven(num):
     print("%d is an even number" %(num))
+  else:
+    print("%d is not a even number" %(num))
 
-
+  
 if __name__ == '__main__':
     main()
