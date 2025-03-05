@@ -1,5 +1,5 @@
-#Problem7.py
-#Project Euler problem 7
+#Problem10.py
+#Project Euler problem 10
 
 from NumberTests import sieve_of_eratosthenes
 
