@@ -1,5 +1,5 @@
 #Project Euler Problem 1
-
+#Done
 import NumberTests
 
 def main():
