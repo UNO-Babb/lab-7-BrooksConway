@@ -7,4 +7,4 @@ limit = 2000000
 prime_numbers = sieve_of_eratosthenes(limit)
 Total = sum(prime_numbers)
 print(Total)
-
+ 
